@@ -281,9 +281,6 @@
         2. WPF(Windows Presentation Foundation)
     - WYSIWYG(What You See Is What You Get) 방식의 GUI 프로그램 개발
 
-
-
-
 ## 4일차
 - WPF
 - 예제 프로젝트

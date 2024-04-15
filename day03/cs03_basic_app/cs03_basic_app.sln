@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex15_pythons", "ex15_python
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex16_winforms", "ex16_winforms\ex16_winforms.csproj", "{F2D0342E-4C07-44F9-AB46-34A7AE9E774D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex17_winApp", "ex17_winApp\ex17_winApp.csproj", "{7F19D4A1-8253-4A69-9820-ABB6913705F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F2D0342E-4C07-44F9-AB46-34A7AE9E774D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2D0342E-4C07-44F9-AB46-34A7AE9E774D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2D0342E-4C07-44F9-AB46-34A7AE9E774D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F19D4A1-8253-4A69-9820-ABB6913705F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F19D4A1-8253-4A69-9820-ABB6913705F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F19D4A1-8253-4A69-9820-ABB6913705F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F19D4A1-8253-4A69-9820-ABB6913705F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
