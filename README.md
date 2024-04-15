@@ -276,6 +276,7 @@
     - C# 개발자 메모리 관리에 아무것도 할게 없다!!
 
 - 윈폼 UI 개발 + 파일, 스레드
+    - 이벤트, 이벤트핸들러 (대리자, 이벤트 연결)
     - 그래픽 사용자 인터페이스를 만드는 방법
         1. Winforms(Windows Forms)
         2. WPF(Windows Presentation Foundation)
