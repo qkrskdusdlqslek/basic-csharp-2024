@@ -332,10 +332,18 @@
 ## 7일차
 - 토이 프로젝트
     - 윈도우 탐색기 앱 종료
+        - 실행결과
+        
     - ModernUI 앱(UI 디자인)
-    - 도서관리 앱 wiht SQL Server(Major)
-    - 국가교통정보센터 CCTV뷰 앱(OpenAPI, NuGet dll, Network)
+    - 도서관리 앱 wiht SQL Server(Base) ModernUI(NuGet패키지)
+
+## 8일차
+- 토이 프로젝트
+    - 도서관리 앱 종료
+    - 국가교통정보센터 CCTV뷰 앱(OpenAPI, NuGet dll, Network, UI 디자인, 비동기 메서드)
     - IoT Dummy 앱 with SQL Server(IoTm DB)
+
+
 
 ## 개인 토이프로젝트
 - ex. 심플 메모장앱
