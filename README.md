@@ -333,7 +333,10 @@
 - 토이 프로젝트
     - 윈도우 탐색기 앱 종료
         - 실행결과
-        
+
+        https://github.com/qkrskdusdlqslek/basic-csharp-2024/assets/158007421/86c8993a-7ef4-41bf-bf3e-1797bcca8a26
+
+
     - ModernUI 앱(UI 디자인)
     - 도서관리 앱 wiht SQL Server(Base) ModernUI(NuGet패키지)
 
