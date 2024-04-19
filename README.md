@@ -337,8 +337,26 @@
         https://github.com/qkrskdusdlqslek/basic-csharp-2024/assets/158007421/86c8993a-7ef4-41bf-bf3e-1797bcca8a26
 
 
-    - ModernUI 앱(UI 디자인)
     - 도서관리 앱 wiht SQL Server(Base) ModernUI(NuGet패키지)
+    ```cs
+    // 값형식 변수에 null값을 넣을 수 있도록 만들어준 기능 Nullable. 변수명 뒤에 '?'만 추가할 것!
+    int? a = null;
+    double? b = null;
+    float? c = null;
+    ```
+    - isMdiContainer : 여러 창 
+    - Menustrip : 위에 상단 바 만들기
+    - statusStrip : 아래
+    - 종속성 > 오른쪽 버튼 누르고 NuGet패키지 > 찾아보기 > MetroFramework > (MetroModernUI 사용) > 패키지 관리자 콘솔(도구에) > Install-Package MetroModernUI
+    - Alt + Enter : 매서드 자동 생성
+    - ControlBox : 
+    - KeyPress : 엔터 누르면 어떻게 되는지 정하는 핸들러
+    - passwordchar: 비밀번호 안 나오게 -> ㅁ적고 한자키 눌러서 특수문자 나오게 하고 2번째장에 있는 1번 사용
+    - Ctrl+Shift+Esc : 작업 끝내기
+    - 보기에 서버탐색기 들어가서 데이터연결 오른쪽버튼 > localhost > sa > mssql_p@ss
+    - 쿼리 생성하기(vs2022에서 바로 새쿼리 만들어서 복붙 가능)
+
+        - 로그인 패스워드 암호화 미구현
 
 ## 8일차
 - 토이 프로젝트
