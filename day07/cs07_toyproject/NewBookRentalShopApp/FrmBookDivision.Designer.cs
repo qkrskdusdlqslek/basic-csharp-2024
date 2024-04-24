@@ -139,7 +139,7 @@
             this.TxtNames.CustomButton.Visible = false;
             this.TxtNames.Lines = new string[0];
             this.TxtNames.Location = new System.Drawing.Point(122, 63);
-            this.TxtNames.MaxLength = 32767;
+            this.TxtNames.MaxLength = 45;
             this.TxtNames.Name = "TxtNames";
             this.TxtNames.PasswordChar = '\0';
             this.TxtNames.PromptText = "구분명 입력";
