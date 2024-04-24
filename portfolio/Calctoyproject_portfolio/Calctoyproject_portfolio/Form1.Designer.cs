@@ -28,24 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.display = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.ButtonSeven = new System.Windows.Forms.Button();
-            this.ButtonEight = new System.Windows.Forms.Button();
-            this.ButtonNine = new System.Windows.Forms.Button();
-            this.ButtonDivide = new System.Windows.Forms.Button();
-            this.ButtonFour = new System.Windows.Forms.Button();
-            this.ButtonFive = new System.Windows.Forms.Button();
-            this.ButtonSix = new System.Windows.Forms.Button();
-            this.ButtonMultiple = new System.Windows.Forms.Button();
-            this.ButtonOne = new System.Windows.Forms.Button();
-            this.ButtonTwo = new System.Windows.Forms.Button();
-            this.ButtonThree = new System.Windows.Forms.Button();
-            this.ButtonSubtract = new System.Windows.Forms.Button();
-            this.ButtonAllClear = new System.Windows.Forms.Button();
-            this.ButtonZero = new System.Windows.Forms.Button();
-            this.ButtonAdd = new System.Windows.Forms.Button();
             this.ButtonResult = new System.Windows.Forms.Button();
+            this.ButtonAdd = new System.Windows.Forms.Button();
+            this.ButtonZero = new System.Windows.Forms.Button();
+            this.ButtonAllClear = new System.Windows.Forms.Button();
+            this.ButtonSubtract = new System.Windows.Forms.Button();
+            this.ButtonThree = new System.Windows.Forms.Button();
+            this.ButtonTwo = new System.Windows.Forms.Button();
+            this.ButtonOne = new System.Windows.Forms.Button();
+            this.ButtonMultiple = new System.Windows.Forms.Button();
+            this.ButtonSix = new System.Windows.Forms.Button();
+            this.ButtonFive = new System.Windows.Forms.Button();
+            this.ButtonFour = new System.Windows.Forms.Button();
+            this.ButtonDivide = new System.Windows.Forms.Button();
+            this.ButtonNine = new System.Windows.Forms.Button();
+            this.ButtonEight = new System.Windows.Forms.Button();
+            this.ButtonSeven = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -94,159 +95,16 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(395, 418);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
-            // ButtonSeven
+            // ButtonResult
             // 
-            this.ButtonSeven.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonSeven.Location = new System.Drawing.Point(3, 3);
-            this.ButtonSeven.Name = "ButtonSeven";
-            this.ButtonSeven.Size = new System.Drawing.Size(92, 98);
-            this.ButtonSeven.TabIndex = 0;
-            this.ButtonSeven.Text = "7";
-            this.ButtonSeven.UseVisualStyleBackColor = true;
-            this.ButtonSeven.Click += new System.EventHandler(this.ButtonSeven_Click);
-            // 
-            // ButtonEight
-            // 
-            this.ButtonEight.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonEight.Location = new System.Drawing.Point(101, 3);
-            this.ButtonEight.Name = "ButtonEight";
-            this.ButtonEight.Size = new System.Drawing.Size(92, 98);
-            this.ButtonEight.TabIndex = 1;
-            this.ButtonEight.Text = "8";
-            this.ButtonEight.UseVisualStyleBackColor = true;
-            this.ButtonEight.Click += new System.EventHandler(this.ButtonEight_Click);
-            // 
-            // ButtonNine
-            // 
-            this.ButtonNine.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonNine.Location = new System.Drawing.Point(199, 3);
-            this.ButtonNine.Name = "ButtonNine";
-            this.ButtonNine.Size = new System.Drawing.Size(92, 98);
-            this.ButtonNine.TabIndex = 2;
-            this.ButtonNine.Text = "9";
-            this.ButtonNine.UseVisualStyleBackColor = true;
-            this.ButtonNine.Click += new System.EventHandler(this.ButtonNine_Click);
-            // 
-            // ButtonDivide
-            // 
-            this.ButtonDivide.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonDivide.Location = new System.Drawing.Point(297, 3);
-            this.ButtonDivide.Name = "ButtonDivide";
-            this.ButtonDivide.Size = new System.Drawing.Size(92, 98);
-            this.ButtonDivide.TabIndex = 3;
-            this.ButtonDivide.Text = "÷";
-            this.ButtonDivide.UseVisualStyleBackColor = true;
-            this.ButtonDivide.Click += new System.EventHandler(this.ButtonDivide_Click);
-            // 
-            // ButtonFour
-            // 
-            this.ButtonFour.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonFour.Location = new System.Drawing.Point(3, 107);
-            this.ButtonFour.Name = "ButtonFour";
-            this.ButtonFour.Size = new System.Drawing.Size(92, 98);
-            this.ButtonFour.TabIndex = 4;
-            this.ButtonFour.Text = "4";
-            this.ButtonFour.UseVisualStyleBackColor = true;
-            this.ButtonFour.Click += new System.EventHandler(this.ButtonFour_Click);
-            // 
-            // ButtonFive
-            // 
-            this.ButtonFive.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonFive.Location = new System.Drawing.Point(101, 107);
-            this.ButtonFive.Name = "ButtonFive";
-            this.ButtonFive.Size = new System.Drawing.Size(92, 98);
-            this.ButtonFive.TabIndex = 5;
-            this.ButtonFive.Text = "5";
-            this.ButtonFive.UseVisualStyleBackColor = true;
-            this.ButtonFive.Click += new System.EventHandler(this.ButtonFive_Click);
-            // 
-            // ButtonSix
-            // 
-            this.ButtonSix.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonSix.Location = new System.Drawing.Point(199, 107);
-            this.ButtonSix.Name = "ButtonSix";
-            this.ButtonSix.Size = new System.Drawing.Size(92, 98);
-            this.ButtonSix.TabIndex = 6;
-            this.ButtonSix.Text = "6";
-            this.ButtonSix.UseVisualStyleBackColor = true;
-            this.ButtonSix.Click += new System.EventHandler(this.ButtonSix_Click);
-            // 
-            // ButtonMultiple
-            // 
-            this.ButtonMultiple.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonMultiple.Location = new System.Drawing.Point(297, 107);
-            this.ButtonMultiple.Name = "ButtonMultiple";
-            this.ButtonMultiple.Size = new System.Drawing.Size(92, 98);
-            this.ButtonMultiple.TabIndex = 7;
-            this.ButtonMultiple.Text = "×";
-            this.ButtonMultiple.UseVisualStyleBackColor = true;
-            this.ButtonMultiple.Click += new System.EventHandler(this.ButtonMultiple_Click);
-            // 
-            // ButtonOne
-            // 
-            this.ButtonOne.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonOne.Location = new System.Drawing.Point(3, 211);
-            this.ButtonOne.Name = "ButtonOne";
-            this.ButtonOne.Size = new System.Drawing.Size(92, 98);
-            this.ButtonOne.TabIndex = 8;
-            this.ButtonOne.Text = "1";
-            this.ButtonOne.UseVisualStyleBackColor = true;
-            this.ButtonOne.Click += new System.EventHandler(this.ButtonOne_Click);
-            // 
-            // ButtonTwo
-            // 
-            this.ButtonTwo.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonTwo.Location = new System.Drawing.Point(101, 211);
-            this.ButtonTwo.Name = "ButtonTwo";
-            this.ButtonTwo.Size = new System.Drawing.Size(92, 98);
-            this.ButtonTwo.TabIndex = 9;
-            this.ButtonTwo.Text = "2";
-            this.ButtonTwo.UseVisualStyleBackColor = true;
-            this.ButtonTwo.Click += new System.EventHandler(this.ButtonTwo_Click);
-            // 
-            // ButtonThree
-            // 
-            this.ButtonThree.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonThree.Location = new System.Drawing.Point(199, 211);
-            this.ButtonThree.Name = "ButtonThree";
-            this.ButtonThree.Size = new System.Drawing.Size(92, 98);
-            this.ButtonThree.TabIndex = 10;
-            this.ButtonThree.Text = "3";
-            this.ButtonThree.UseVisualStyleBackColor = true;
-            this.ButtonThree.Click += new System.EventHandler(this.ButtonThree_Click);
-            // 
-            // ButtonSubtract
-            // 
-            this.ButtonSubtract.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonSubtract.Location = new System.Drawing.Point(297, 211);
-            this.ButtonSubtract.Name = "ButtonSubtract";
-            this.ButtonSubtract.Size = new System.Drawing.Size(92, 98);
-            this.ButtonSubtract.TabIndex = 11;
-            this.ButtonSubtract.Text = "－";
-            this.ButtonSubtract.UseVisualStyleBackColor = true;
-            this.ButtonSubtract.Click += new System.EventHandler(this.ButtonSubtract_Click);
-            // 
-            // ButtonAllClear
-            // 
-            this.ButtonAllClear.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonAllClear.Location = new System.Drawing.Point(3, 315);
-            this.ButtonAllClear.Name = "ButtonAllClear";
-            this.ButtonAllClear.Size = new System.Drawing.Size(92, 98);
-            this.ButtonAllClear.TabIndex = 12;
-            this.ButtonAllClear.Text = "AC";
-            this.ButtonAllClear.UseVisualStyleBackColor = true;
-            this.ButtonAllClear.Click += new System.EventHandler(this.ButtonAllClear_Click);
-            // 
-            // ButtonZero
-            // 
-            this.ButtonZero.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonZero.Location = new System.Drawing.Point(101, 315);
-            this.ButtonZero.Name = "ButtonZero";
-            this.ButtonZero.Size = new System.Drawing.Size(92, 98);
-            this.ButtonZero.TabIndex = 13;
-            this.ButtonZero.Text = "0";
-            this.ButtonZero.UseVisualStyleBackColor = true;
-            this.ButtonZero.Click += new System.EventHandler(this.ButtonZero_Click);
+            this.ButtonResult.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonResult.Location = new System.Drawing.Point(297, 315);
+            this.ButtonResult.Name = "ButtonResult";
+            this.ButtonResult.Size = new System.Drawing.Size(92, 98);
+            this.ButtonResult.TabIndex = 15;
+            this.ButtonResult.Text = "=";
+            this.ButtonResult.UseVisualStyleBackColor = true;
+            this.ButtonResult.Click += new System.EventHandler(this.ButtonResult_Click);
             // 
             // ButtonAdd
             // 
@@ -259,16 +117,159 @@
             this.ButtonAdd.UseVisualStyleBackColor = true;
             this.ButtonAdd.Click += new System.EventHandler(this.ButtonAdd_Click);
             // 
-            // ButtonResult
+            // ButtonZero
             // 
-            this.ButtonResult.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonResult.Location = new System.Drawing.Point(297, 315);
-            this.ButtonResult.Name = "ButtonResult";
-            this.ButtonResult.Size = new System.Drawing.Size(92, 98);
-            this.ButtonResult.TabIndex = 15;
-            this.ButtonResult.Text = "=";
-            this.ButtonResult.UseVisualStyleBackColor = true;
-            this.ButtonResult.Click += new System.EventHandler(this.ButtonResult_Click);
+            this.ButtonZero.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonZero.Location = new System.Drawing.Point(101, 315);
+            this.ButtonZero.Name = "ButtonZero";
+            this.ButtonZero.Size = new System.Drawing.Size(92, 98);
+            this.ButtonZero.TabIndex = 13;
+            this.ButtonZero.Text = "0";
+            this.ButtonZero.UseVisualStyleBackColor = true;
+            this.ButtonZero.Click += new System.EventHandler(this.ButtonZero_Click);
+            // 
+            // ButtonAllClear
+            // 
+            this.ButtonAllClear.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonAllClear.Location = new System.Drawing.Point(3, 315);
+            this.ButtonAllClear.Name = "ButtonAllClear";
+            this.ButtonAllClear.Size = new System.Drawing.Size(92, 98);
+            this.ButtonAllClear.TabIndex = 12;
+            this.ButtonAllClear.Text = "AC";
+            this.ButtonAllClear.UseVisualStyleBackColor = true;
+            this.ButtonAllClear.Click += new System.EventHandler(this.ButtonAllClear_Click);
+            // 
+            // ButtonSubtract
+            // 
+            this.ButtonSubtract.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonSubtract.Location = new System.Drawing.Point(297, 211);
+            this.ButtonSubtract.Name = "ButtonSubtract";
+            this.ButtonSubtract.Size = new System.Drawing.Size(92, 98);
+            this.ButtonSubtract.TabIndex = 11;
+            this.ButtonSubtract.Text = "－";
+            this.ButtonSubtract.UseVisualStyleBackColor = true;
+            this.ButtonSubtract.Click += new System.EventHandler(this.ButtonSubtract_Click);
+            // 
+            // ButtonThree
+            // 
+            this.ButtonThree.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonThree.Location = new System.Drawing.Point(199, 211);
+            this.ButtonThree.Name = "ButtonThree";
+            this.ButtonThree.Size = new System.Drawing.Size(92, 98);
+            this.ButtonThree.TabIndex = 10;
+            this.ButtonThree.Text = "3";
+            this.ButtonThree.UseVisualStyleBackColor = true;
+            this.ButtonThree.Click += new System.EventHandler(this.ButtonThree_Click);
+            // 
+            // ButtonTwo
+            // 
+            this.ButtonTwo.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonTwo.Location = new System.Drawing.Point(101, 211);
+            this.ButtonTwo.Name = "ButtonTwo";
+            this.ButtonTwo.Size = new System.Drawing.Size(92, 98);
+            this.ButtonTwo.TabIndex = 9;
+            this.ButtonTwo.Text = "2";
+            this.ButtonTwo.UseVisualStyleBackColor = true;
+            this.ButtonTwo.Click += new System.EventHandler(this.ButtonTwo_Click);
+            // 
+            // ButtonOne
+            // 
+            this.ButtonOne.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonOne.Location = new System.Drawing.Point(3, 211);
+            this.ButtonOne.Name = "ButtonOne";
+            this.ButtonOne.Size = new System.Drawing.Size(92, 98);
+            this.ButtonOne.TabIndex = 8;
+            this.ButtonOne.Text = "1";
+            this.ButtonOne.UseVisualStyleBackColor = true;
+            this.ButtonOne.Click += new System.EventHandler(this.ButtonOne_Click);
+            // 
+            // ButtonMultiple
+            // 
+            this.ButtonMultiple.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonMultiple.Location = new System.Drawing.Point(297, 107);
+            this.ButtonMultiple.Name = "ButtonMultiple";
+            this.ButtonMultiple.Size = new System.Drawing.Size(92, 98);
+            this.ButtonMultiple.TabIndex = 7;
+            this.ButtonMultiple.Text = "×";
+            this.ButtonMultiple.UseVisualStyleBackColor = true;
+            this.ButtonMultiple.Click += new System.EventHandler(this.ButtonMultiple_Click);
+            // 
+            // ButtonSix
+            // 
+            this.ButtonSix.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonSix.Location = new System.Drawing.Point(199, 107);
+            this.ButtonSix.Name = "ButtonSix";
+            this.ButtonSix.Size = new System.Drawing.Size(92, 98);
+            this.ButtonSix.TabIndex = 6;
+            this.ButtonSix.Text = "6";
+            this.ButtonSix.UseVisualStyleBackColor = true;
+            this.ButtonSix.Click += new System.EventHandler(this.ButtonSix_Click);
+            // 
+            // ButtonFive
+            // 
+            this.ButtonFive.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonFive.Location = new System.Drawing.Point(101, 107);
+            this.ButtonFive.Name = "ButtonFive";
+            this.ButtonFive.Size = new System.Drawing.Size(92, 98);
+            this.ButtonFive.TabIndex = 5;
+            this.ButtonFive.Text = "5";
+            this.ButtonFive.UseVisualStyleBackColor = true;
+            this.ButtonFive.Click += new System.EventHandler(this.ButtonFive_Click);
+            // 
+            // ButtonFour
+            // 
+            this.ButtonFour.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonFour.Location = new System.Drawing.Point(3, 107);
+            this.ButtonFour.Name = "ButtonFour";
+            this.ButtonFour.Size = new System.Drawing.Size(92, 98);
+            this.ButtonFour.TabIndex = 4;
+            this.ButtonFour.Text = "4";
+            this.ButtonFour.UseVisualStyleBackColor = true;
+            this.ButtonFour.Click += new System.EventHandler(this.ButtonFour_Click);
+            // 
+            // ButtonDivide
+            // 
+            this.ButtonDivide.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonDivide.Location = new System.Drawing.Point(297, 3);
+            this.ButtonDivide.Name = "ButtonDivide";
+            this.ButtonDivide.Size = new System.Drawing.Size(92, 98);
+            this.ButtonDivide.TabIndex = 3;
+            this.ButtonDivide.Text = "÷";
+            this.ButtonDivide.UseVisualStyleBackColor = true;
+            this.ButtonDivide.Click += new System.EventHandler(this.ButtonDivide_Click);
+            // 
+            // ButtonNine
+            // 
+            this.ButtonNine.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonNine.Location = new System.Drawing.Point(199, 3);
+            this.ButtonNine.Name = "ButtonNine";
+            this.ButtonNine.Size = new System.Drawing.Size(92, 98);
+            this.ButtonNine.TabIndex = 2;
+            this.ButtonNine.Text = "9";
+            this.ButtonNine.UseVisualStyleBackColor = true;
+            this.ButtonNine.Click += new System.EventHandler(this.ButtonNine_Click);
+            // 
+            // ButtonEight
+            // 
+            this.ButtonEight.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonEight.Location = new System.Drawing.Point(101, 3);
+            this.ButtonEight.Name = "ButtonEight";
+            this.ButtonEight.Size = new System.Drawing.Size(92, 98);
+            this.ButtonEight.TabIndex = 1;
+            this.ButtonEight.Text = "8";
+            this.ButtonEight.UseVisualStyleBackColor = true;
+            this.ButtonEight.Click += new System.EventHandler(this.ButtonEight_Click);
+            // 
+            // ButtonSeven
+            // 
+            this.ButtonSeven.Font = new System.Drawing.Font("나눔고딕코딩", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonSeven.Location = new System.Drawing.Point(3, 3);
+            this.ButtonSeven.Name = "ButtonSeven";
+            this.ButtonSeven.Size = new System.Drawing.Size(92, 98);
+            this.ButtonSeven.TabIndex = 0;
+            this.ButtonSeven.Text = "7";
+            this.ButtonSeven.UseVisualStyleBackColor = true;
+            this.ButtonSeven.Click += new System.EventHandler(this.ButtonSeven_Click);
             // 
             // Form1
             // 
@@ -277,6 +278,7 @@
             this.ClientSize = new System.Drawing.Size(395, 497);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.display);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "계산기";
             this.tableLayoutPanel1.ResumeLayout(false);
