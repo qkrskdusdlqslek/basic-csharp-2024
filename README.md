@@ -398,7 +398,7 @@
         - 0으로 나눌 시 "0으로 나눌 수 없습니다"라는 메세지 출력 기능 
 
     - 사진이나 동영상 올리기
-    
+
     ![계산기](https://raw.githubusercontent.com/qkrskdusdlqslek/basic-csharp-2024/main/images/cs007.png)
 
 
@@ -419,6 +419,12 @@
         - 금액 나오는 부분에서 소수점까지 나오는 부분 해결
         - 차량번호 조회를 구현하기 위해서는 DB를 만들어 연동시켜야 함
         - 실행 했을 때 창이 중간에 띄워지는 기능 (**ImageAlign을 MiddleCenter로 설정**)
+
+
+    ![주차관리시스템](https://raw.githubusercontent.com/qkrskdusdlqslek/basic-csharp-2024/main/images/cs008.png)
+
+    ![주차관리시스템](https://raw.githubusercontent.com/qkrskdusdlqslek/basic-csharp-2024/main/images/cs009.png)
+
 
     - 해결해야 하는 것
         - DB 연동해서 차량번호 조회
