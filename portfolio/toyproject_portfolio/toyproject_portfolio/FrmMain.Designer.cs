@@ -47,6 +47,7 @@
             label1 = new Label();
             TxtTime = new TextBox();
             timerMain = new System.Windows.Forms.Timer(components);
+            label5 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             panel1.SuspendLayout();
@@ -97,6 +98,7 @@
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(lblParkingFee);
             groupBox2.Location = new Point(392, 64);
             groupBox2.Name = "groupBox2";
@@ -215,6 +217,15 @@
             timerMain.Interval = 1000;
             timerMain.Tick += timerMain_Tick;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(116, 46);
+            label5.Name = "label5";
+            label5.Size = new Size(19, 15);
+            label5.TabIndex = 1;
+            label5.Text = "원";
+            // 
             // FrmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -255,5 +266,6 @@
         private Label lblin1;
         private Label lblNowTime;
         private Label lblParkingFee;
+        private Label label5;
     }
 }
