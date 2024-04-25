@@ -280,6 +280,7 @@
             this.Controls.Add(this.display);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "계산기";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

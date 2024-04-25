@@ -33,7 +33,6 @@
             groupBox1 = new GroupBox();
             lblOut1 = new Label();
             lblin1 = new Label();
-            TxtCarNumber = new TextBox();
             BtnFind = new Button();
             groupBox2 = new GroupBox();
             lblParkingFee = new Label();
@@ -57,7 +56,6 @@
             // 
             groupBox1.Controls.Add(lblOut1);
             groupBox1.Controls.Add(lblin1);
-            groupBox1.Controls.Add(TxtCarNumber);
             groupBox1.Controls.Add(BtnFind);
             groupBox1.Controls.Add(groupBox2);
             groupBox1.Controls.Add(BtnOut);
@@ -87,20 +85,13 @@
             lblin1.TabIndex = 5;
             lblin1.Text = "label5";
             // 
-            // TxtCarNumber
-            // 
-            TxtCarNumber.Location = new Point(154, 135);
-            TxtCarNumber.Name = "TxtCarNumber";
-            TxtCarNumber.Size = new Size(136, 23);
-            TxtCarNumber.TabIndex = 4;
-            // 
             // BtnFind
             // 
-            BtnFind.Location = new Point(19, 126);
+            BtnFind.Location = new Point(392, 16);
             BtnFind.Name = "BtnFind";
-            BtnFind.Size = new Size(114, 38);
+            BtnFind.Size = new Size(75, 38);
             BtnFind.TabIndex = 3;
-            BtnFind.Text = "차량번호조회";
+            BtnFind.Text = "정산";
             BtnFind.UseVisualStyleBackColor = true;
             BtnFind.Click += BtnFind_Click;
             // 
@@ -117,7 +108,7 @@
             // lblParkingFee
             // 
             lblParkingFee.AutoSize = true;
-            lblParkingFee.Location = new Point(71, 48);
+            lblParkingFee.Location = new Point(71, 46);
             lblParkingFee.Name = "lblParkingFee";
             lblParkingFee.Size = new Size(39, 15);
             lblParkingFee.TabIndex = 0;
@@ -182,7 +173,7 @@
             TxtPrice.Name = "TxtPrice";
             TxtPrice.Size = new Size(100, 23);
             TxtPrice.TabIndex = 4;
-            TxtPrice.Text = "2,000";
+            TxtPrice.Text = "1,000";
             // 
             // label3
             // 
@@ -217,7 +208,7 @@
             TxtTime.Name = "TxtTime";
             TxtTime.Size = new Size(100, 23);
             TxtTime.TabIndex = 0;
-            TxtTime.Text = "30";
+            TxtTime.Text = "60";
             // 
             // timerMain
             // 
@@ -233,6 +224,7 @@
             Controls.Add(groupBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FrmMain";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "주차관리시스템";
             Load += FrmMain_Load;
             groupBox1.ResumeLayout(false);
@@ -258,7 +250,6 @@
         private Label label1;
         private TextBox TxtTime;
         private Button BtnFind;
-        private TextBox TxtCarNumber;
         private System.Windows.Forms.Timer timerMain;
         private Label lblOut1;
         private Label lblin1;
