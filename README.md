@@ -425,9 +425,21 @@
 
     ![주차관리시스템](https://raw.githubusercontent.com/qkrskdusdlqslek/basic-csharp-2024/main/images/cs009.png)
 
-
     - 해결해야 하는 것
         - DB 연동해서 차량번호 조회
+
+
+- 메모장 프로그램
+    - 기능
+        - 새로 만들기/ 열기/ 저장/ 끝내기/ 복사하기/ 붙여넣기 기능 구현
+        - 복사하기 붙여넣기 기능에서 Ctrl-c, Ctrl-V 사용 가능
+
+    - 배운점
+        - **새로 만들기 기능에서 현재 작업 중인 파일이 저장 될 필요**가 있을 수 있기 때문에 MessageBox를 통해서 "변경된 내용을 저장하시겠습니까?"를 확인해야 함
+        - SaveFileDialog를 사용해 현재 문서의 내용을 저장한 후 새 문서를 시작하기 위해 FileProcessBeforeClose() 함수 만듬
+        - **열기 메뉴**에서도 현재 작업중인 파일을 저장할 필요가 있기 때문에 **새로만들기**에서 사용한 코드를 활용함
+        - try ~ catch문 사용
+        - Ctrl-c, Ctrl-V 사용 할 수 있는 코드
 
 
 
